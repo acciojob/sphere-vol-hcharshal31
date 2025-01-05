@@ -10,4 +10,6 @@ function volume_sphere() {
 	
 } 
 
-window.onload = document.getElementById('MyForm').onsubmit = volume_sphere();
+document.getElementById("submit").onclick = volume_sphere;
+
+window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
